@@ -1,0 +1,14 @@
+                           background:#09be51 none repeat scroll 0 0 ;
+
+
+background: This is a shorthand property that sets all the background-related properties of an element, such as its color, image, and position. In this case, it's used to set the background color.
+
+#09be51: This is the hexadecimal value of the color that's being set. Hexadecimal values are a way of representing colors in web design. This particular value represents a shade of green.
+
+none: This sets the background image of the element to none. If there were an image set for the background, this would remove it.
+
+repeat: This sets how the background image (if there were one) should be repeated. In this case, it's set to repeat, which means that the image should be repeated both horizontally and vertically to cover the entire background.
+
+scroll 0 0: This sets the initial position of the background image. In this case, it's set to scroll at position 0, 0 (top-left corner of the element).
+
+So all together, this CSS code sets the background color of an element to a shade of green, removes any background image that might be set, and sets the background image position to scroll at the top-left corner of the element.

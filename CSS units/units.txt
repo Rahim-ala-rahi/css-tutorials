@@ -1,0 +1,24 @@
+Absolute Units:
+
+px (pixel)
+pt (point)
+in (inch)
+cm (centimeter)
+mm (millimeter)
+pc (pica)
+Relative Units:
+
+em (relative to the font-size of the element)
+rem (relative to the font-size of the root element)
+vw (relative to 1% of the viewport's width)
+vh (relative to 1% of the viewport's height)
+vmin (relative to the smaller dimension of the viewport)
+vmax (relative to the larger dimension of the viewport)
+Percentage Units:
+
+% (percentage)
+Other Units:
+
+ch (character width)
+ex (ex-height of the current font)
+fr (fractional unit, used in CSS Grid Layout)

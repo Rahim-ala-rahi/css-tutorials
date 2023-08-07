@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box Sizing Example</title>
+  <style>
+    div {
+      box-sizing: border-box;
+      width: 200px;
+      padding: 10px;
+      border: 1px solid black;
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div>This is a box with border and padding.</div>
+</body>
+</html>
+<!-- CSS box-sizing is a property that determines how the width and height of an element are calculated. By default, when you set the width or height of an element, it only applies to the content area of the element, not including padding or border. This means that if you set the width of a box to be 200 pixels, and then add 10 pixels of padding and 1 pixel of border, the total width of the box will be 222 pixels.
+
+With box-sizing, you can change this default behavior so that the width and height you set apply to the content area as well as any padding and border. This means that if you set the width of a box to be 200 pixels with box-sizing set to border-box, and then add 10 pixels of padding and 1 pixel of border, the total width of the box will remain 200 pixels. This makes it easier to create layouts and design elements with consistent dimensions. -->
